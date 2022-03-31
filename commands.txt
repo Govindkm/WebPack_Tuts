@@ -5,3 +5,15 @@ Setting up the project with webpack
 2. To install webpack CLI as project dev dependency(this will give a cli tool to install and run commands for webpack)
 # npm install webpack-cli --save-dev
 --------------------------------------------------------------------------------------------------------------------------
+
+Creating a javascript project
+--------------------------------------------------------------------------------------------------------------------------
+1. Install jquery as project dependency
+# npm install jquery --save
+2. Create src folder for source files and dist folder for distribution files.
+3. Create index.js inside the src and index.html in dist folder.
+4. Inside the index.js import jquery and write the code to target a dom element and add some dynamic data
+5. Inside the index.html create the targeted dom element.
+6. Run the webpack command
+#npx webpack
+This will create a main.js file inside the dist folder with the bundled code which we wrote inside the index.js file.
