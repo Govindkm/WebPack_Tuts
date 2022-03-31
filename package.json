@@ -1,0 +1,22 @@
+{
+  "name": "webpack_basics",
+  "version": "1.0.0",
+  "description": "A basic project to learn webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Govindkm/WebPack_Tuts.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Govind Kumar Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Govindkm/WebPack_Tuts/issues"
+  },
+  "homepage": "https://github.com/Govindkm/WebPack_Tuts#readme"
+}
