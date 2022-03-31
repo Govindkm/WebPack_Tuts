@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Govindkm/WebPack_Tuts/issues"
   },
-  "homepage": "https://github.com/Govindkm/WebPack_Tuts#readme"
+  "homepage": "https://github.com/Govindkm/WebPack_Tuts#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
 }

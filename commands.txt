@@ -1,0 +1,7 @@
+Setting up the project with webpack
+--------------------------------------------------------------------------------------------------------------------------
+1. To Install webpack as project dev dependency
+# npm install webpack --save-dev
+2. To install webpack CLI as project dev dependency(this will give a cli tool to install and run commands for webpack)
+# npm install webpack-cli --save-dev
+--------------------------------------------------------------------------------------------------------------------------
