@@ -17,3 +17,13 @@ Creating a javascript project
 6. Run the webpack command
 #npx webpack  //we use npx to run a package which is a local package not included in the environment path variable 
 This will create a main.js file inside the dist folder with the bundled code which we wrote inside the index.js file.
+7. To add custom build configuration for webpack we use webpack.config.js
+8. To automate the build through npm commands we can add build script in the package.json
+--------------------------------------------------------------------------------------------------------------------------
+
+What is BABLE
+---------------
+Bable is a tool that we use to transpile(convert a form of code to another form(used heavily in JS)), transform and 
+convert the codes.
+Bable provides different loader to transpile JS, Sass, Css etc.
+--------------------------------------------------------------------------------------------------------------------------
