@@ -15,5 +15,5 @@ Creating a javascript project
 4. Inside the index.js import jquery and write the code to target a dom element and add some dynamic data
 5. Inside the index.html create the targeted dom element.
 6. Run the webpack command
-#npx webpack
+#npx webpack  //we use npx to run a package which is a local package not included in the environment path variable 
 This will create a main.js file inside the dist folder with the bundled code which we wrote inside the index.js file.
