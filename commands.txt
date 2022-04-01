@@ -21,9 +21,14 @@ This will create a main.js file inside the dist folder with the bundled code whi
 8. To automate the build through npm commands we can add build script in the package.json
 --------------------------------------------------------------------------------------------------------------------------
 
-What is BABLE
+What is BABEL
 ---------------
-Bable is a tool that we use to transpile(convert a form of code to another form(used heavily in JS)), transform and 
+Babel is a tool that we use to transpile(convert a form of code to another form(used heavily in JS)), transform and 
 convert the codes.
-Bable provides different loader to transpile JS, Sass, Css etc.
+Babel provides different loader to transpile JS, Sass, Css etc.
 --------------------------------------------------------------------------------------------------------------------------
+Steps to add babel into the project.
+1. Install babel loader and babel core packages using the command
+#npm install babel-loader @babel/core --save-dev
+2. Add a preset under the module>rules>use  //Check Babel and webpack official documnetations.
+// A preset is used to configure the build to create files so that it can be used on the maximum number of systems.
